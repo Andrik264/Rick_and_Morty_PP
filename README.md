@@ -3,7 +3,7 @@
 This project was written by React library, using SCSS and also with BEM technology.
 In this project were used promises, fetch, BEM, scss, React technologies.
 All information was taken from this [Rick_and_Morty_API](https://rickandmortyapi.com/documentation/#introduction).
-* [DEMO LINK](https://Andrik264.github.io/Rick_and_Morty__PP/)
+* [DEMO LINK](https://Andrik264.github.io/Rick_and_Morty_PP/)
 
 ## Description
 
