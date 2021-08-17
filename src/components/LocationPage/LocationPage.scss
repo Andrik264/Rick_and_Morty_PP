@@ -1,0 +1,24 @@
+$yellow: #F0E14A;
+
+.LocationPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: #fff;
+
+  .MuiInputBase-input {
+    color: #fff;
+  }
+
+  .MuiFormLabel-root.Mui-focused {
+    color: $yellow;
+  }
+  .MuiFormLabel-root {
+    color: $yellow;
+  }
+
+  .MuiInput-underline:after {
+      border-bottom: 2px solid $yellow;
+  }
+}

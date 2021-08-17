@@ -1,0 +1,30 @@
+$yellow: #ffc107;
+
+.pagination.container {
+  width: max-content;
+}
+
+.page-item.active .page-link {
+  color: #4d457b;
+  background-color: $yellow;
+  border-color: $yellow;
+}
+
+.pagination {
+  width: min-content;
+  margin: 0 auto;
+  padding: 10px;
+
+  .page-link {
+    color: #fff;
+    background-color: transparent;
+
+    &:hover {
+      background: linear-gradient(0deg, rgba(255,204,0,1) 33%, rgba(255,214,0,0.44021358543417366) 57%, rgba(38,55,59,0) 93%);    }
+  }
+
+  .disabled {
+    background-color: #000;
+  }
+}
+

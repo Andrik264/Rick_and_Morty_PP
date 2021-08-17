@@ -1,0 +1,32 @@
+.CharacterCard {
+  box-sizing: border-box;
+  border: 10px solid transparent;
+
+  transition: border-color 0.7s;
+
+  &:hover {
+    transform: sclae(1.1);
+    border-color: #ffcc00;
+  }
+
+  &__image {
+    border-radius: 10px;
+  }
+}
+
+.modal-dialog {
+  justify-content: space-evenly;
+  align-self: center;
+}
+.modal-content {
+  background-color: rgb(255, 231, 199);
+  width: max-content;
+  padding: 10px;
+}
+
+.modal-body {
+  width: max-content ;
+  align-self: center;
+}
+
+

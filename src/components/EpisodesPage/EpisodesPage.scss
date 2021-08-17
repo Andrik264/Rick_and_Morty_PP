@@ -1,0 +1,30 @@
+$yellow: #F0E14A;
+
+.EpisodesPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+
+  &__filter {
+    align-self: flex-end;
+  }
+
+  .MuiInputBase-input {
+    color: #fff;
+  }
+
+  .MuiFormLabel-root.Mui-focused {
+    color: $yellow;
+  }
+  .MuiFormLabel-root {
+    color: $yellow;
+  }
+
+  .MuiInput-underline:after {
+      border-bottom: 2px solid $yellow;
+  }
+}

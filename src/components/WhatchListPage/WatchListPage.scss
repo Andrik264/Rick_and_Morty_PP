@@ -1,0 +1,52 @@
+$yellow: #F0E14A;
+
+.WatchListPage {
+  display: flex;
+  flex-direction: column;
+
+  &__add-block {
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: flex-end;
+  }
+
+  &__add-input {
+    background-color: #ffc107;
+  }
+
+  &__filterBlock {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__filterStatus {
+    align-self: flex-end;
+    margin-bottom: 8px;
+  }
+
+  .MuiInputBase-input {
+    color: #fff;
+
+    &-root svg path {
+      fill: $yellow;
+    }
+  }
+
+  .MuiFormLabel-root.Mui-focused {
+    color: $yellow;
+  }
+
+  .MuiInput-underline:hover {
+    border-color: $yellow;
+  }
+
+  .MuiInput-underline:before {
+      border-bottom: 2px solid $yellow;
+  }
+
+  .MuiInput-underline:after {
+      border-bottom: 2px solid $yellow;
+  }
+
+}
+
